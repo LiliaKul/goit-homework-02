@@ -46,7 +46,7 @@ ul {
 
 .hero-title {
   color: var(--color-primary-inverted);
-  
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1, 07;
@@ -56,7 +56,6 @@ ul {
 
 .hero {
   background: var(--color-primary-dark);
-  
 }
 
 .hero-btn {
@@ -65,8 +64,6 @@ ul {
   color: var(--color-primary-inverted);
   cursor: pointer;
   border-radius: 4px;
-
-
 }
 
 .hero-btn:hover,
@@ -129,4 +126,16 @@ footer {
 }
 .card-descr {
   color: var(--color-primary);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
