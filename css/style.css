@@ -9,11 +9,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
   background-color: var(--color-primary-inverted);
   color: var(--color-primary);
-  letter-spacing: 0.02em;
 }
 /* Header */
 
@@ -23,18 +20,27 @@ ul {
 .link {
   text-decoration: none;
   font-style: normal;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--color-brand);
+  line-height: 1, 33;
+  letter-spacing: 0.03em;
+  font-weight: 800;
 }
 .part-logo {
   color: var(--color-primary-dark);
 }
 
 .header-link {
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-primary-dark);
+
+  font-size: 16px;
 }
 
 .header-link:hover,
@@ -46,12 +52,10 @@ ul {
 
 .hero-title {
   color: var(--color-primary-inverted);
-
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
-  width: 494px;
-  height: 120px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -64,6 +68,10 @@ ul {
   color: var(--color-primary-inverted);
   cursor: pointer;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -71,13 +79,32 @@ ul {
   background: var(--color-secondary);
 }
 
-/* Section */
+/* Section one */
 
-h3 {
+.caption {
   color: var(--color-primary-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.caption-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Section two */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Section four */
@@ -98,34 +125,46 @@ footer {
 }
 .footer-text {
   color: #e7e9fc;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Portfolio */
 
 .filters-btn {
+  font-family: inherit;
   background: #f4f4fd;
   border: 1px solid;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--color-brand);
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .filters-btn:hover,
 .filters-btn:hover {
   color: var(--color-primary-inverted);
   background: var(--color-secondary);
 }
+
+/* Project card */
+
 .project-card {
   background-color: var(--color-primary-inverted);
 }
-/* Project card */
-
 .card {
   color: var(--color-primary-dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .card-descr {
   color: var(--color-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .visually-hidden {
   position: absolute;
